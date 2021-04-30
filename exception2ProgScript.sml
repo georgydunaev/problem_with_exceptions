@@ -5,7 +5,7 @@
 open preamble ml_monad_translator_interfaceLib
 open exceptionProgTheory
 
-val _ = new_theory "exceptionProg2";
+val _ = new_theory "exception2Prog";
 val _ = m_translation_extends "exceptionProg";
 val _ = patternMatchesLib.ENABLE_PMATCH_CASES();
 (*** COMMENTED, WE WANT USE THE SAME CONFIGURATION, AS IN exceptionProgScript.sml
