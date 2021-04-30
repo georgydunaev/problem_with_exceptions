@@ -53,7 +53,7 @@ val handle_decrease_def = Define `
   handle_decrease n = handle_fail (decrease n) (\e. return 0)`;
 **)
 (* Translate *)
-val _ = start_translation exceptionProgTheory.config; (* this doesn't work *)
+(* val _ = start_translation exceptionProgTheory.config; (* this doesn't work *)*)
 
 val assert2_v_thm = assert_def |> m_translate; (* even if previos line is commented this also doesn't work *)
 (**
